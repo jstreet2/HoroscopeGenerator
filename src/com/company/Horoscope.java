@@ -34,9 +34,7 @@ public class Horoscope extends FortuneTeller{
         }
 
         //call method to provide user with their horoscope
-        horoscopeFortuneGenerator(birthMonth, birthDay);
-
-        //let user know program has finished
-        System.out.println("Thank you for playing! Come back again soon!");
+        System.out.println(horoscopeFortuneGenerator(birthMonth, birthDay));
+        System.out.println("Thank you for playing, dear! Do come back soon!");
     }
 }
